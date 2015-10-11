@@ -14,7 +14,7 @@ use Silex\ServiceProviderInterface;
  *
  * @link http://silex.sensiolabs.org/doc/providers.html#creating-a-provider
  */
-class JshrinkServiceProvider extends ServiceProviderInterface
+class JshrinkServiceProvider implements ServiceProviderInterface
 {
     /**
      * Registers services and parameters on the app.
