@@ -1,4 +1,4 @@
-# :package_name
+# Jshrink Service Provider
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -19,9 +19,16 @@ $ composer require emanueleminotto/jshrink-provider
 
 ## Usage
 
-``` php
-$skeleton = new League\Skeleton();
-echo $skeleton->echoPhrase('Hello, League!');
+Initialize it using `register`
+
+```php
+use EmanueleMinotto\JshrinkServiceProvider\JshrinkServiceProvider;
+
+$app->register(new JshrinkServiceProvider(), array(
+    'jshrink.cache_dir' => '/your/cache/path', // default: sys_get_temp_dir()
+    'jshrink.enabled' => true,
+    'jshrink.flagged_comments' => true,
+));
 ```
 
 ## Testing
@@ -47,17 +54,17 @@ If you discover any security related issues, please email :author_email instead 
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/EmanueleMinotto/:package_name.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/emanueleminotto/jshrink-service-provider.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/EmanueleMinotto/:package_name/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/EmanueleMinotto/:package_name.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/EmanueleMinotto/:package_name.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/EmanueleMinotto/:package_name.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/EmanueleMinotto/JshrinkServiceProvider/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/EmanueleMinotto/JshrinkServiceProvider.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/EmanueleMinotto/JshrinkServiceProvider.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/emanueleminotto/jshrink-service-provider.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/EmanueleMinotto/:package_name
-[link-travis]: https://travis-ci.org/EmanueleMinotto/:package_name
-[link-scrutinizer]: https://scrutinizer-ci.com/g/EmanueleMinotto/:package_name/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/EmanueleMinotto/:package_name
-[link-downloads]: https://packagist.org/packages/EmanueleMinotto/:package_name
+[link-packagist]: https://packagist.org/packages/emanueleminotto/jshrink-service-provider
+[link-travis]: https://travis-ci.org/EmanueleMinotto/JshrinkServiceProvider
+[link-scrutinizer]: https://scrutinizer-ci.com/g/EmanueleMinotto/JshrinkServiceProvider/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/EmanueleMinotto/JshrinkServiceProvider
+[link-downloads]: https://packagist.org/packages/emanueleminotto/jshrink-service-provider
 [link-author]: https://github.com/EmanueleMinotto
 [link-contributors]: ../../contributors

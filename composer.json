@@ -1,5 +1,5 @@
 {
-    "name": "emanueleminotto/JshrinkServiceProvider",
+    "name": "emanueleminotto/jshrink-service-provider",
     "description": "Jshrink service provider for Silex 1 based on nibsirahsieu/SalvaJshrinkBundle.",
     "keywords": [
         "Assetic",
