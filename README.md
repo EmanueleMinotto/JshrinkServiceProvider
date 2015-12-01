@@ -5,7 +5,6 @@
 [![Build Status][ico-travis]][link-travis]
 [![Coverage Status][ico-scrutinizer]][link-scrutinizer]
 [![Quality Score][ico-code-quality]][link-code-quality]
-[![Total Downloads][ico-downloads]][link-downloads]
 
 A [Jshrink](https://github.com/tedious/JShrink) provider for Silex based on [nibsirahsieu/SalvaJshrinkBundle](https://github.com/nibsirahsieu/SalvaJshrinkBundle).
 
@@ -59,12 +58,10 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-travis]: https://img.shields.io/travis/EmanueleMinotto/JshrinkServiceProvider/master.svg?style=flat-square
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/EmanueleMinotto/JshrinkServiceProvider.svg?style=flat-square
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/EmanueleMinotto/JshrinkServiceProvider.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/emanueleminotto/jshrink-service-provider.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/emanueleminotto/jshrink-service-provider
 [link-travis]: https://travis-ci.org/EmanueleMinotto/JshrinkServiceProvider
 [link-scrutinizer]: https://scrutinizer-ci.com/g/EmanueleMinotto/JshrinkServiceProvider/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/EmanueleMinotto/JshrinkServiceProvider
-[link-downloads]: https://packagist.org/packages/emanueleminotto/jshrink-service-provider
 [link-author]: https://github.com/EmanueleMinotto
 [link-contributors]: ../../contributors
